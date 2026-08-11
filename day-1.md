@@ -4,7 +4,12 @@
 
 ## Review
 
-# Diario de Aprendizaje
+Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
+
+```bash
+ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
+```
+
 
 ## Plan de la Mañana
 ### Tareas de Git
@@ -36,9 +41,4 @@
 - [x] Convert my first blog post into an actual webpage.
 
 
-###### Lista de Revision 2
-Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
 
-```bash
-ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
-```
